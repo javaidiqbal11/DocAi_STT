@@ -23,7 +23,7 @@ If you're on Linux or macOS, you can install FFmpeg using the package manager:
 sudo apt-get install ffmpeg
 ```
 
-# For macOS (using Homebrew)
+**For macOS (using Homebrew)**
 ```shell
 brew install ffmpeg
 ```
