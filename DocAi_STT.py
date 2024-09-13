@@ -1,3 +1,5 @@
+# Speech to text (STT) model 
+
 import io
 from pydub import AudioSegment
 import speech_recognition as sr
