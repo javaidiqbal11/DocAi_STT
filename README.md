@@ -39,4 +39,20 @@ python DocAi_STT.py
 ```
 This will start the speech-to-text process using offline resources.
 
+## Available Models and Languages
+Our framework offers five model sizes, each designed to balance speed and accuracy based on your application's needs. Four of the models are available in English-only versions for tasks requiring better language-specific performance. The models differ in memory requirements and relative speed, allowing flexibility in deployment based on hardware constraints.
+
+Below is a list of available models, their parameter sizes, memory requirements, and relative speeds:
+```bash
+
+Model Size	Parameters	English-only Model	Multilingual Model	Required VRAM	Relative Speed
+Tiny	39M	tiny.en	tiny	~1 GB	~32x
+Base	74M	base.en	base	~1 GB	~16x
+Small	244M	small.en	small	~2 GB	~6x
+Medium	769M	medium.en	medium	~5 GB	~2x
+Large	1550M	N/A	large	~10 GB	1x
+```
+For English-only tasks, we recommend using the .en models (e.g., tiny.en, base.en) as they typically offer better performance. The difference in accuracy becomes less significant with the larger models such as small.en and medium.en.
+
+
 Feel free to adjust based on any additional details you’d like to include.
