@@ -20,8 +20,6 @@ import pywhatkit
 import keyboard
 
 
-# original repo
-# https://github.com/mallorbc/whisper_mic/blob/main/mic.py
 # default language now is English and model is tiny
 # Lanuage and Model can be cnaged as per the requirements 
 
