@@ -1,5 +1,5 @@
 # Speech to text (STT) and Text to Speech (TTS) model 
-# Multilingual model with the offline dictionary 
+# Multilingual model with the offline dictionary (samples)
 
 import io
 from pydub import AudioSegment
